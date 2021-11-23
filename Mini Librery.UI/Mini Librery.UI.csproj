@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <RootNamespace>Mini_Librery.UI</RootNamespace>
+    <UseWindowsForms>true</UseWindowsForms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Mini Librery.Entities\Mini Librery.Entities.csproj" />
+    <ProjectReference Include="..\Mini Librery.Logic\Mini Librery.Logic.csproj" />
+  </ItemGroup>
+
+</Project>
